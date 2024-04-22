@@ -108,7 +108,7 @@ The most relevant files for IDA are:
 
 [mmseg/models/uda/dacs.py](https://github.com/Masrur02/DEDA_P/blob/main/mmseg/models/uda/dacs.py): Implementation of the DAFormer self-training.
 # Acknowledgements
-IDA is based on the following open-source projects. We thank their authors for making the source code publicly available.
+C²DA is based on the following open-source projects. We thank their authors for making the source code publicly available.
 - [HRDA](https://github.com/lhoyer/HRDA#setup-environment)
 - [MIC](https://github.com/lhoyer/MIC)
 - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
