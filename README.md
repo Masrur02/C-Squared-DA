@@ -96,11 +96,11 @@ sh in_ros.sh work_dirs/rugdHR2meshHR_hrda_246ef
 # Framework Structure
 This project is based on [mmsegmentation version 0.16.0.](https://github.com/open-mmlab/mmsegmentation/tree/v0.16.0) For more information about the framework structure and the config system, please refer to the [mmsegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/index.html) and the [mmcv documentation](https://mmcv.readthedocs.ihttps//arxiv.org/abs/2007.08702o/en/v1.3.7/index.html).
 
-The most relevant files for IDA are:
+The most relevant files for C²DA are:
 
-[configs/C²DA/gtaHR2csHR_hrda.py](https://github.com/Masrur02/DEDA_P/blob/main/configs/hrda/gtaHR2csHR_hrda.py): Annotated config file for the final IDA.
+[configs/C²DA/gtaHR2csHR_hrda.py](https://github.com/Masrur02/DEDA_P/blob/main/configs/hrda/gtaHR2csHR_hrda.py): Annotated config file for the final C²DA.
 
-[configs/C²DA/rugd2mesh_hrda.py](https://github.com/Masrur02/DEDA_P/blob/main/configs/hrda/rugd2mesh_hrda.py): Annotated config file for the final IDA.
+[configs/C²DA/rugd2mesh_hrda.py](https://github.com/Masrur02/DEDA_P/blob/main/configs/hrda/rugd2mesh_hrda.py): Annotated config file for the final C²DA.
 
 [mmseg/models/segmentors/hrda_encoder_decoder.py](https://github.com/Masrur02/DEDA_P/blob/main/mmseg/models/segmentors/hrda_encoder_decoder.py): Implementation of the HRDA multi-resolution encoding with context and detail crop.
 
@@ -115,8 +115,4 @@ C²DA is based on the following open-source projects. We thank their authors for
 - [SegFormer](https://github.com/NVlabs/SegFormer)
 - [PiPa](https://github.com/chen742/PiPa)
 - [CAMix](https://github.com/qianyuzqy/CAMix)
-
-
-
-
 
