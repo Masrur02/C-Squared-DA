@@ -84,7 +84,7 @@ The provided IDA checkpoint trained on GTA→Cityscapes can be tested on the Cit
 ```bash
 sh test.sh work_dirs/gtaHR2csHR_hrda_246ef
 ```
-And the provided IDA checkpoint trained on RUGD→MESH can be tested on the MESH validation set using:
+And the provided C²DA checkpoint trained on RUGD→MESH can be tested on the MESH validation set using:
 ```bash
 sh test.sh work_dirs/rugdHR2meshHR_hrda_246ef
 ```
