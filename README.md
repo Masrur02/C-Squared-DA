@@ -28,7 +28,7 @@ data/gta
 ```bash 
 data/rugd
  ```
-**MESH**: Please, download all image and label packages from [here](http://rugd.vision/) and extract them to 
+**MESH**: You can collect your own forest environment dataset and put them to 
 ```bash 
 data/MESH
 ```
